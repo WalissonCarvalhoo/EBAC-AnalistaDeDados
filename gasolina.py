@@ -18,8 +18,6 @@ plt.ylabel('Preço')
 plt.title('Preço médio da gasolinha em São Paulo')
 plt.xticks(df_gasolina['dia'])
 plt.grid(True)
+plt.savefig('gasolina.png')
 plt.show()
 
-#salvando o gráfico em um "png"
-
-plt.savefig('gasolina.png')
